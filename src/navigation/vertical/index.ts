@@ -13,3 +13,4 @@ export default [
     icon: { icon: 'tabler-file' },
   },
 ] as VerticalNavItems
+// vertical navigation your page entrances

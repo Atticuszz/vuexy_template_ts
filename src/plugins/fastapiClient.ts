@@ -1,13 +1,13 @@
 import axios from 'axios'
 
 const fastapiClient = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'http://localhost:5000',// your base url
   headers: {
     'Content-Type': 'application/json',
   },
   timeout: 10000,
 })
-
+// axios instance for fastapi
 //
 // // ℹ️ Add request interceptor to send the authorization header on each subsequent request after login
 // axiosIns.interceptors.request.use(config => {
