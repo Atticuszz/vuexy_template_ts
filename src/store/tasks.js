@@ -1,5 +1,5 @@
 // eslint-disable-next-line valid-appcardcode-code-prop
-import { deleteTask, fetchAllCategories, fetchAllTasks, upsertCategory, upsertTask } from '@/store/api'
+import {} from '@/store/api'
 import { defineStore } from 'pinia'
 import { v4 as uuidv4 } from 'uuid'
 import { watch } from 'vue'
